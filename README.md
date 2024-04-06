@@ -20,23 +20,43 @@ To write a program to perform selection sort and insertion sort using python pro
 ## Program:
 i)	#Selection Sort
 ```
-
-
-
-
+Developed by:SANJAI L
+Register No: 212223230184
+Unsorted=eval(input())
+def selsort(Unsorted):
+  n = len(Unsorted)
+  for i in range(n-1):
+    min_pos = i
+    for j in range(i,n):
+      if Unsorted[j]<Unsorted[min_pos]:
+        Unsorted[j],Unsorted[min_pos] = Unsorted[min_pos],Unsorted[j]
+  return Unsorted
+print(selsort(Unsorted))
 
 ```
 ii)	#Insertion Sort
 ```
-
-
-
-
-
+Developed by:SANJAI L
+Register No: 212223230184
+def Insertionsort(arr):
+  for i in range(1,len(arr)):
+    j = i
+    while arr[j]<arr[j-1] and j>0:
+      arr[j],arr[j-1] = arr[j-1], arr[j]
+      j-=1
+  return arr
+arr = eval(input())
+print(Insertionsort(arr))
 
 ```
 
 ## Output:
+![Screenshot 2024-04-06 213417](https://github.com/SanjaiOfficial/Sorting-Algorithms/assets/151763180/bd38d6a5-f593-42bf-9f9e-1516d4eb9d5c)
+![Screenshot 2024-04-06 213428](https://github.com/SanjaiOfficial/Sorting-Algorithms/assets/151763180/87c2e686-b54b-4d7b-9c79-d717b2babca7)
+![Screenshot 2024-04-06 213438](https://github.com/SanjaiOfficial/Sorting-Algorithms/assets/151763180/273751ec-978e-4d91-b02d-8d89247f051b)
+![Screenshot 2024-04-06 213448](https://github.com/SanjaiOfficial/Sorting-Algorithms/assets/151763180/a8257e55-8860-45eb-b063-6a46779679f8)
+
+
 
 
 ## Result:
