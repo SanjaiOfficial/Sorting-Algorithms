@@ -51,9 +51,11 @@ print(Insertionsort(arr))
 ```
 
 ## Output:
-![Screenshot 2024-04-06 213417](https://github.com/SanjaiOfficial/Sorting-Algorithms/assets/151763180/bd38d6a5-f593-42bf-9f9e-1516d4eb9d5c)
+![image](https://github.com/SanjaiOfficial/Sorting-Algorithms/assets/151763180/c5fffe24-3193-494a-8f09-8b5fef3782e8)
+
 ![Screenshot 2024-04-06 213428](https://github.com/SanjaiOfficial/Sorting-Algorithms/assets/151763180/87c2e686-b54b-4d7b-9c79-d717b2babca7)
-![Screenshot 2024-04-06 213438](https://github.com/SanjaiOfficial/Sorting-Algorithms/assets/151763180/273751ec-978e-4d91-b02d-8d89247f051b)
+![image](https://github.com/SanjaiOfficial/Sorting-Algorithms/assets/151763180/4d3e532e-50f4-4e07-b9eb-5c3e578d770d)
+
 ![Screenshot 2024-04-06 213448](https://github.com/SanjaiOfficial/Sorting-Algorithms/assets/151763180/a8257e55-8860-45eb-b063-6a46779679f8)
 
 
